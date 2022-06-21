@@ -1,0 +1,30 @@
+.park_form {
+  display: flex;
+  justify-content: center;
+  margin: 2em 0;
+
+  input {
+    border: none;
+    margin-right: 2em;
+    background-color: transparent;
+    min-width: 300px;
+    border-bottom: 2px solid #b538f7;
+    padding: 0.5em 0.25em;
+    outline: none;
+  }
+
+  button {
+    min-width: 100px;
+    padding: 0 1em;
+    border: none;
+    background-color: #b538f7;
+    color: #fff;
+    border-radius: 0.25em;
+    transition: 0.2s;
+
+    &:hover {
+      background-color: #952ccd;
+      cursor: pointer;
+    }
+  }
+}
